@@ -1,0 +1,814 @@
+@font-face {
+    font-family: jil;
+    src: url(../media/fonts/static/Inter-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: jiga;
+    src: url(../media/fonts/static/Inter-Light.ttf);
+}
+
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: jil;
+    width: 100vw;
+    height: 100vh;
+    /* font-family: jil; */
+}
+
+.paytmlogo
+{
+    width: 300px;
+    height: 90px;
+}
+
+.upper
+{
+    box-shadow: 10px 10px 10px grey;
+    /* background-color: aqua; */
+    padding: 20px;
+    width: 100%;
+    height: 150px;
+
+}
+
+.upperinner
+{
+    text-transform: capitalize;
+    padding: 1%;
+    font-size: 19px;
+    /* font-weight: 600; */
+    display: grid;
+    /* justify-content: center; */
+    align-items: center;
+    grid-template-columns: auto auto  auto auto auto auto auto ;
+    /* background-color: blue; */
+    width: 100%;
+}
+
+.sign
+{
+    align-items: center;
+    height: 40px;
+    width: 140px;
+    color:white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(104, 180, 208);
+}
+
+.person
+{
+    width: 30px;
+    height: 30px;
+}
+
+.nowallet
+{
+    background-color: rgba(128, 128, 128, 0.187);
+    /* font-size: large; */
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.paraimg
+{
+    padding-top: 75px ;
+    padding-bottom: 75px;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+
+}
+
+/* .paraimg2
+{
+    display: flex;
+    justify-content: center;
+} */
+
+.para,.img
+{
+    width: 50%;
+
+}
+
+.para2
+{
+    font-size: 20px;
+    /* float: right+; */
+    /* display: static; */
+    padding: 20px;
+    width: 50%;
+}
+
+.para9
+{
+    font-size: 20px;
+    /* float: right+; */
+    /* display: static; */
+    /* padding: 20px; */
+    /* width: 50%; */
+}
+
+
+.para3
+{
+    font-size: 20px;
+    /* float: right+; */
+    /* display: static; */
+    padding: 20px;
+    /* width: 50%; */
+    background-color: white;
+    
+}
+
+
+.para5
+{
+    font-size: 20px;
+    /* float: right+; */
+    /* display: static; */
+   
+    /* border: 9rem solid white ; */
+    padding-top: 10%;
+    width: 470px;
+    background-color: white;
+    margin-left: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 10px;
+
+    
+   
+    
+}
+
+.para4
+{
+    border-radius: 10px;
+
+    font-size: 20px;
+    /* float: right+; */
+    /* display: static; */
+   
+    /* border: 9rem solid white ; */
+    padding-top: 10%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 470px;
+    background-color: white;
+    margin-right: 2rem;
+    
+   
+    
+}
+
+.koko
+{
+    padding-left: 2rem;
+    padding-right: 2REM;
+}
+
+
+
+
+.para
+{
+    font-size: 25px;
+    /* float: right+; */
+    /* display: static; */
+    padding: 40px;
+}
+
+.roundimg
+{
+    width: 100px;
+    height: 100px;
+}
+
+.roundimg2
+{
+    width: 200px;
+    height: 100px;
+}
+
+.roundimg3
+{
+    width: 250px;
+    height: 120px;
+}
+.roundimg4
+{
+    margin-top: 5rem;
+    /* padding-top: 2rem; */
+    width: 300px;
+    height: 40px;
+}
+
+.roundimg5
+
+{
+    margin-top: 1rem;
+    width: 300px;
+    height: 50px;
+}
+
+.roundimg6
+{
+    /* margin-top: 1rem; */
+    width: 200px;
+    height: 60px;
+}
+
+
+
+.right
+{
+    /* width: 40%; */
+    float: right;
+    width: 600px;
+}
+
+
+.right2
+{
+    /* width: 40%; */
+    /* float: right; */
+    width: 600px;
+}
+
+.right3
+{
+    padding-right: 5rem;
+    /* margin-right: 3rem; */
+    width: 600px;
+}
+.recharge
+{
+    /* font-weight: 500 ; */
+    font-family: jiga;
+    font-size: 25px;
+}
+
+.recharge2
+{
+    /* font-weight: 500 ; */
+    font-family: jiga;
+    font-size: 20px;
+    line-height: 2rem;
+}
+
+.recharge3
+{
+    font-weight: 600 ;
+    font-family: jiga;
+    font-size: 20px;
+    line-height: 2rem;
+}
+.lightbluediv
+{
+    background-color: rgb(104, 180, 208);
+    width: 100%;
+    height: 380px;
+    padding: 40px;
+    color: white;
+}
+
+.wallet
+{
+    display: flex;
+    align-items: center;
+}
+
+.darkbluediv
+{
+    background-color: rgba(0, 0, 187, 0.892);
+    width: 100%;
+    height: 380px;
+    padding: 40px;
+    color: white;
+}
+.rechargepay
+{
+    color: white;
+    font-size: larger;
+}
+
+
+
+.rechargepay
+{
+    font-size: 40px;
+}
+.singlediv
+{
+    width: 70px;
+    height: auto;
+    line-height: 2rem;
+}
+
+
+.sapels
+{
+    width: 50px;
+    height: 50px;
+    
+}
+.iconflex
+{
+    
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;    
+
+}
+
+.whitebox
+{
+    width: 1000px;
+    display: flex;
+    padding: 3rem;
+    background-color: white;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+
+.whitebox2
+{
+    width: 1000px;
+    display: grid;
+    padding: 3rem;
+    grid-template-columns: auto auto;
+    /* background-color: white; */
+    justify-content: center;
+}
+
+
+.instruments
+{
+    float: left;
+    font-size: 30px;
+}
+
+.paymentsinstruments
+{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(128, 128, 128, 0.187);
+  
+
+}
+
+.haldirams
+{
+    padding-top: 30px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.haldirams2
+{
+    padding-top: 30px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+
+.rightimg
+{
+    width: 100%;
+}
+
+.one
+{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.one2
+{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(128, 128, 128, 0.187);
+}
+
+.nodec
+{
+    color: black;
+    text-decoration: none;
+}
+
+.sign:hover
+{
+    color: white;
+    background-color: rgb(3, 3, 95);
+}
+
+
+.whitebox9
+{
+    padding: 2rem;
+    /* border: 2px solid black; */
+    width: 1100px;
+    display: grid;
+    gap: 20px;
+    /* padding: 3rem; */
+    grid-template-columns: 50% 50%;
+    /* background-color: white; */
+    justify-content: center;
+}
+
+.bus
+{
+    
+    padding-left: 4rem;
+    font-size: 25px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    height: 100px;
+}
+
+.done
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.bluebox
+{
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgba(128, 128, 128, 0.100);
+    border-radius: 20px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.heading
+{
+    font-size: 40px;
+}
+
+.texts
+{
+    padding: 4rem;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.wireless
+{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    float: right;
+    width: 80%;
+}
+
+.fours
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+
+}
+
+.lap
+{
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fero
+{
+    width: 1000px;
+}
+
+.four
+{
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(4,auto) ;
+}
+
+.four1
+{
+    line-height: 2rem;
+    width: 300px;
+    font-size: 19px;
+    padding: 2rem;
+}
+
+.hat
+{
+    width: 100%;
+}
+
+.underdiv
+{
+    width: 100%;
+    background-color: rgba(171, 170, 170, 0.17);
+    display: flex;
+    justify-content: center;
+    /* padding-top: 3rem; */
+    padding-bottom: 3rem;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.khiladi
+{
+    border-radius: 20px;
+    padding-left: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    /* background: linear-gradient( blue ,lightblue,left  ); */
+    background-color: rgb(104, 180, 208);
+    /* padding: 1rem; */
+    width: 1200px;
+    display: grid;
+    grid-template-columns: 35% auto;
+}
+.whitecard
+{
+    width: 180px;
+    height: auto;
+}
+
+.with
+{
+    color: white;
+}
+
+.div1
+{
+    /* height: ; */
+
+    padding-top: 3rem;
+    /* border: 2px solid black; */
+    padding-left: 5.5rem;
+    z-index: 3;
+    /* position: relative; */
+
+}
+
+.div2
+{
+    padding-right: 3rem;
+    padding-top: 2rem;
+}
+
+.twocards
+{
+    /* position: absolute;
+    left: 5rem; */
+    width: 100%;
+    height: 400px;
+    z-index: 4;
+
+}
+
+.variousdivs
+{
+    background-color: rgba(95, 215, 231, 0.187);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+
+}
+
+.up
+{
+    width: 200px;
+    height: 80px;
+}
+
+.variousdiv
+{
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(6, 15%);
+    width: 1200px;
+    background-color: white;
+    gap: 20px;
+
+
+}
+
+.bull
+{
+    width: 150px;
+    height: 150px;
+}
+
+.closed
+{
+    background-color: rgb(104, 180, 208);
+    
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+ 
+    align-items: center;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+.invest
+{
+    text-transform: capitalize;
+    color: white;
+}
+
+.invest2
+{
+    text-transform: capitalize;
+    color: white;
+    padding-right: 30px;
+    padding-bottom: 2rem;
+}
+.variousdiv2
+{
+    padding-top: 20px;
+    background-color: rgb(104, 180, 208);
+    text-align: center;
+    
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 20px;
+
+}
+
+.variousdiv3
+{
+    padding-top: 20px;
+    background-color: rgb(104, 180, 208);
+    /* text-align: center; */
+    
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    border-radius: 20px;
+    padding-left: 8px;
+    padding-top: 30px;
+
+}
+
+.buller
+{
+    width: 80px;
+    height: 80px;
+}
+
+.variousdiv1
+{
+    padding-top: 30px;
+}
+
+.last
+{
+    background-color: rgba(128, 128, 128, 0.100);
+    display: flex;
+    justify-content: center;
+}
+
+.innerlast
+{
+   padding-top: 10rem;
+    border-bottom: 2px solid grey;
+    padding-bottom: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    /* flex-direction: row; */
+    gap: 20px;
+    width: 1200px;
+    margin-bottom: 2rem;
+}
+
+.innerlast1
+{
+    display: flex;
+    /* justify-content: first baseline; */
+    /* justify-self: start; */
+    
+    /* padding-top: 15rem; */
+    /* padding-bottom: 3rem; */
+    /* border: 2px solid black; */
+    align-items: center;
+
+        
+
+    line-height: 1.5rem;
+
+/* flex-direction: row; */
+
+    gap: 20px;
+    display: flex;
+}
+
+.innerlast2
+{
+    /* padding-top: 15rem;
+    padding-bottom: 3rem; */
+    display: flex;
+    align-items: center;
+    /* width: 1200px; */
+    justify-self: end;
+    gap: 20px;
+    /* display: inline; */
+    color: grey;
+    font-size: 35px; 
+
+    /* float: right; */
+    /* border: 2px solid black; */
+    /* margin-left: 29rem; */
+}
+
+
+.sign::after
+{
+    content: ".";
+    /* display: none; */
+    background-color: darkblue;
+    text-align: center;
+    border-radius: 20px;
+    width: 25px;
+    margin-left:-28px;
+
+}
+
+.sign:hover::after
+{
+    
+    background-color:blue;
+}
+
+/* .innerlast:hover.innerlast2 */
+
+
+/* div{
+    display: flex;
+    justify-content: center;
+} */
+
+
+/* om
+shiyaya jai hanuman  */
